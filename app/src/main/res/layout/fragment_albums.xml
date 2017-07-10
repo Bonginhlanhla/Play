@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.admin.play.Albums">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imgDuncan"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/duncan"
+        android:background="#80000000"
+        android:paddingTop="55dp"
+        android:paddingLeft="49dp"
+        android:layout_alignTop="@+id/imgJayZ"
+        android:layout_alignRight="@+id/imgPac"
+        android:layout_alignEnd="@+id/imgPac" />
+
+    <ImageButton
+        android:id="@+id/imgJayZ"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/jigga"
+        android:background="#80000000"
+        android:paddingTop="55dp"
+        android:paddingLeft="49dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="29dp" />
+
+    <ImageButton
+        android:id="@+id/imgLilWayne"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignLeft="@+id/imgJayZ"
+        android:layout_alignStart="@+id/imgJayZ"
+        android:layout_alignTop="@+id/imgPac"
+        android:background="#80000000"
+        app:srcCompat="@drawable/weezy" />
+
+    <ImageButton
+        android:id="@+id/imgPac"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/pac"
+        android:background="#80000000"
+        android:paddingTop="55dp"
+        android:paddingRight="50dp"
+        android:layout_below="@+id/imgDuncan"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginTop="39dp" />
+
+    <ImageView
+        android:id="@+id/lmgPlay"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/play" />
+
+
+
+</RelativeLayout>
